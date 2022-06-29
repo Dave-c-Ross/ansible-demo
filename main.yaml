@@ -3,8 +3,8 @@
   hosts: localhost
 
   collections:
-    - name: azure.azcollection
-    - name: community.general
+    - azure.azcollection
+    - community.general
 
   tasks:
   - name: Create resource group
